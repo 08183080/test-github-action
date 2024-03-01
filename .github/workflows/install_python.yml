@@ -7,5 +7,5 @@ jobs:
         - uses: actions/checkout@v4
         - uses: actions/setup-python@v5 
           with:
-            python-version: 'pypy3.8' 
+            python-version: 'pypy3.8.10' 
         - run: python -v
