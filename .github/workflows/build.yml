@@ -9,8 +9,8 @@ jobs:
   build:
     runs-on: ubuntu-latest  # 选择运行操作的操作系统，这里选择最新版本的 Ubuntu
     steps:
-      - name: Check out code  # 检出代码到操作环境中
-        uses: actions/checkout@v2
-      
+      - name: Checkout
+        uses: actions/checkout@v4.1.1
+  
       - name: Print a message  # 打印一条消息，可以替换成您需要执行的实际任务
         run: echo "Hello, world!"  # 这里替换为您实际需要执行的任务
