@@ -1,0 +1,7 @@
+name: Hello, Github Action!
+on: [push]
+jobs: 
+  Hello:
+    runs-on: windows-latest
+    steps:
+      - run: echo 'Hello, Github!'
